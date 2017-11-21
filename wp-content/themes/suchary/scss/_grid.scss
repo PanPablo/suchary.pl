@@ -1,0 +1,51 @@
+//Grid
+$columnCount: 6;
+$gutter: 0;
+
+
+
+
+
+.container {
+    padding:0 $gutter;
+}
+
+
+
+.row {
+    [class*="col-"] {
+
+        margin-bottom: $gutter * 2;
+
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .row {
+        margin-bottom: $gutter * 2;
+        margin-left: -$gutter;
+        margin-right: -$gutter;
+
+        &:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        @for $i from 1 through $columnCount {
+            .col-#{$i}-#{$columnCount} {
+                width: (100/$columnCount * $i) * 1%;
+            }
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding-left: $gutter;
+            padding-right: $gutter;
+            box-sizing: border-box;
+            margin-bottom: 0;
+        }
+    }
+}

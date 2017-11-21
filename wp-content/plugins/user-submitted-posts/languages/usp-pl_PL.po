@@ -125,7 +125,7 @@ msgstr "Wymagana treść"
 
 #: user-submitted-posts.php:1206 user-submitted-posts.php:1207
 msgid "Correct captcha required"
-msgstr "Wymagana poprawna captcha"
+msgstr "Zaznacz kapcia!"
 
 #: user-submitted-posts.php:1208
 msgid "User email required"
@@ -209,7 +209,7 @@ msgstr "do przesyłania treści!"
 
 #: views/submission-form.php:46 views/submission-form-alt.php:55
 msgid "Please complete the required fields."
-msgstr "Proszę wypełnić wymagane pola."
+msgstr "Wypełnij wszystkie pola!"
 
 #: views/submission-form.php:56 views/submission-form.php:57
 #: views/submission-form-alt.php:61 views/submission-form-alt.php:62
@@ -275,7 +275,7 @@ msgstr "Weryfikacja człowieka: pozostaw to pole puste."
 
 #: views/submission-form.php:202 views/submission-form-alt.php:207
 msgid "Submit Post"
-msgstr "Prześlij pocztę"
+msgstr "Wyślij suchara!"
 
 #: library/plugin-settings.php:32
 msgid "Get USP Pro for unlimited forms!"

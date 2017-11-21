@@ -54,7 +54,7 @@ else :
 		
 		<fieldset class="usp-name">
 			<label for="user-submitted-name"><?php esc_html_e('Your Name', 'usp'); ?></label>
-			<input id="user-submitted-name" name="user-submitted-name" type="text" value="" placeholder="<?php esc_attr_e('Your Name', 'usp'); ?>"<?php if (usp_check_required('usp_name')) echo $usp_required; ?> class="usp-input">
+			<input id="user-submitted-name" name="user-submitted-name" type="text" value="" placeholder="Podaj nick"<?php if (usp_check_required('usp_name')) echo $usp_required; ?> class="usp-input">
 		</fieldset>
 		<?php } if (($usp_options['usp_url'] == 'show' || $usp_options['usp_url'] == 'optn') && ($usp_display_url)) { ?>
 		
@@ -133,7 +133,7 @@ else :
 			<?php } else { ?>
 				
 			<label for="user-submitted-content"><?php esc_html_e('Post Content', 'usp'); ?></label>
-			<textarea id="user-submitted-content" name="user-submitted-content" rows="5" placeholder="<?php esc_attr_e('Post Content', 'usp'); ?>"<?php if (usp_check_required('usp_content')) echo $usp_required; ?> class="usp-textarea"></textarea>
+			<textarea id="user-submitted-content" name="user-submitted-content" rows="5" placeholder="Wpisz suchara" class="usp-textarea"></textarea>
 			<?php } ?>
 			
 		</fieldset>
@@ -199,7 +199,7 @@ else :
 			<input type="hidden" class="usp-hidden" name="user-submitted-category" value="<?php echo $usp_options['usp_use_cat_id']; ?>">
 			<?php } ?>
 			
-			<input type="submit" class="usp-submit" id="user-submitted-post" name="user-submitted-post" value="<?php esc_attr_e('Submit Post', 'usp'); ?>">
+			<input type="submit" class="usp-submit" id="user-submitted-post" name="user-submitted-post" value="Wyślij Suchara!">
 			<?php wp_nonce_field('usp-nonce', 'usp-nonce', false); ?>
 			
 		</div>

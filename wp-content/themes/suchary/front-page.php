@@ -7,18 +7,27 @@
  */
 ?>
 <?php get_header(); ?>
+<div class="container">
+
+
 <?php if ( have_posts() ) : while ( have_posts() ) :    the_post(); ?>
   <!-- post -->
-    <div>
-        <h2><?php the_title()?></h2>
-        <div><?php the_post_thumbnail('thumbnail') ?></div>
-        <div><?php the_excerpt() ?></div>
-        <div><a href="<?php the_permalink(); ?>">Czytaj więcej...</a></div>
+    <div class="row">
+    <div class="col-6-6">
+        <div class="singleJoke">
+            <h4>Autor:<?php the_author() ?></h4>
+            <div><?php the_post_thumbnail('thumbnail') ?></div>
+            <span><?php the_content() ?></span>
+
+            <div><?php if(function_exists('the_ratings')) { the_ratings(); } ?></div>
+            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+        </div>
+    </div>
     </div>
 <?php endwhile; ?>
   <!-- post navigation -->
 <?php else: ?>
   <!-- no posts found -->
 <?php endif; ?>
-
+</div>
 <?php get_footer(); ?>
