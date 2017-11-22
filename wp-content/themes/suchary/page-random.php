@@ -1,23 +1,31 @@
 <?php
 /**
- * Search results page
+ * Created by PhpStorm.
+ * User: pawelstruminski
+ * Date: 21.11.2017
+ * Time: 09:11
  */
 ?>
-<?php get_header() ?>
-<div class="container">
-    <h2 class='searchStyle'><?php get_search_form(); ?></h2>
-<?php if ( have_posts() ): ?>
+<?php get_header(); ?>
+    <div class="container">
+        <h2 class="searchStyle">Wylosowano suchara:</h2>
+        <?php
 
-    <h2 class='searchStyle'>Wyniki wyszukiwania: '<?php echo get_search_query(); ?>'</h2>
-    <ol>
-        <?php while ( have_posts() ) : the_post(); ?>
+        $q = new WP_Query([
+            'post_type' => 'post',
+            'orderby'   => 'rand',
+            'posts_per_page' => 1,
+
+        ]);
+
+        if ( $q->have_posts() ) : while ( $q->have_posts() ) : $q->the_post(); ?>
+            <!-- post -->
             <div class="row">
                 <div class="col-6-6">
                     <div class="singleJoke">
                         <h4>Autor:<?php the_author() ?></h4>
                         <div><?php the_post_thumbnail('thumbnail') ?></div>
                         <span><?php the_content() ?></span>
-
                         <div><?php if(function_exists('the_ratings')) { the_ratings(); } ?></div>
                         <div
                                 class="fb-like"
@@ -31,19 +39,14 @@
                     </div>
                 </div>
             </div>
+            <br>
         <?php endwhile; ?>
-    </ol>
-<?php else: ?>
+            <!-- post navigation -->
+        <?php else: ?>
+            <!-- no posts found -->
+        <?php endif;
 
-            <span class="searchStyle">Nie znaleziono takiego sucharka! :('<?php echo get_search_query(); ?>'</span>
+        ?>
 
-<?php endif; ?>
-
-    <div class="row">
-        <div class="col-6-6 pag">
-            <div class="pagination"><?php post_pagination(); ?></div>
-        </div>
     </div>
-
-</div>
 <?php get_footer(); ?>

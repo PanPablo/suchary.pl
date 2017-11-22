@@ -16,12 +16,22 @@
     <div class="col-6-6">
         <div class="singleJoke">
             <h4>Autor:<?php the_author() ?></h4>
+<!--            <h5>--><?php //the_tags()?><!--</h5>-->
             <div><?php the_post_thumbnail('thumbnail') ?></div>
             <span><?php the_content() ?></span>
 
             <div><?php if(function_exists('the_ratings')) { the_ratings(); } ?></div>
-            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+            <div
+                    class="fb-like"
+                    data-share="true"
+                    data-width="450"
+                    data-show-faces="true"
+                    data-layout="button"
+                    data-action="like"
+                    data-size="large">
+            </div>
         </div>
+
     </div>
     </div>
 <?php endwhile; ?>
@@ -29,5 +39,12 @@
 <?php else: ?>
   <!-- no posts found -->
 <?php endif; ?>
+
+<div class="row">
+    <div class="col-6-6 pag">
+        <div class="pagination"><?php post_pagination(); ?></div>
+    </div>
 </div>
+</div>
+
 <?php get_footer(); ?>
