@@ -39,15 +39,19 @@ a:link {
 //style dla pojedynczego postu
 
 .singleJoke {
-  border-top: 1px solid deeppink;
+  border-top: 3px solid deeppink;
   font-family: 'Amatic SC', cursive;
   font-size: 28px;
   margin-top: 30px;
 
 }
 
+//.row:nth-of-type(odd) {
+//  background: rgb(244, 244, 244);
+//}
+
 img {
-  margin-left: 40%;
+  margin: 0 auto;
 }
 
 .fb-like {
@@ -154,6 +158,18 @@ div#user-submitted-posts fieldset label {
 
 }
 
+input[type=text]:focus {
+  box-shadow: 6px 6px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+  border: 3px solid deeppink;
+  outline: none;
+}
+
+textarea:focus {
+  box-shadow: 6px 6px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+  border: 3px solid deeppink;
+  outline: none;
+}
+
 //style dla guzika wysylania
 
 .usp-submit {
@@ -169,23 +185,22 @@ input[type=submit]:active {
   box-shadow: 6px 6px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
 }
 
-input[type=text]:focus {
-  box-shadow: 6px 6px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
-  border: 3px solid deeppink;
-  outline: none;
-}
-
-textarea:focus {
-  box-shadow: 6px 6px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
-  border: 3px solid deeppink;
-  outline: none;
-}
-
 #usp-success-message {
   font-family: "Amatic SC", cursive;
   color: deeppink;
   font-size: 30px;
   margin: 0 auto;
+  margin-left: 100px;
+}
+
+#usp-error-message {
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+}
+
+.parsley-required {
+  font-family: "Amatic SC", cursive;
+  font-size: 18px;
 }
 //style dla wyszukiwarki
 
@@ -205,9 +220,6 @@ input[type=submit] {
   font-family: "Amatic SC", cursive;
   font-size: 25px;
   margin-top: 5px;
-
-
-
 
 }
 
@@ -278,5 +290,18 @@ h3 {
 
 }
 
+//style dla tagow
+.tag {
+  font-size: 16px;
+}
 
+.tag a {
+  color: deeppink;
+  text-decoration: none;
+}
+.tag a:visited {
+  color: deeppink;
+  text-decoration: none;
+
+}
 

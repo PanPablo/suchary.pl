@@ -2,6 +2,7 @@
 add_theme_support('menus');
 add_theme_support('post-thumbnails');
 
+
 function jokes_enqueue_script() {
 
 
@@ -40,20 +41,4 @@ if ( ! function_exists( 'post_pagination' ) ) :
         ) );
     }
 endif;
-//
-//add_action( 'pre_get_posts', 'include_tags_in_search' );
-//function include_tags_in_search($query){
-//    if($query->is_search){
-//        $terms = explode(' ', $query->get('s'));
-//        $query->set('tax_query', array(
-//            'relation'=>'OR',
-//            array(
-//                'taxonomy'=>'post_tag',
-//                'field'=>'slug',
-//                'terms'=>'image'
-//            )
-//        ));
-//    }
-//}
-
 

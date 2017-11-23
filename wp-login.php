@@ -158,8 +158,8 @@ function login_header( $title = 'Log In', $message = '', $wp_error = '' ) {
 	do_action( 'login_header' );
 	?>
 	<div id="login">
-		<h1><a href="<?php echo esc_url( $login_header_url ); ?>" title="<?php echo esc_attr( $login_header_title ); ?>" tabindex="-1"><?php bloginfo( 'name' ); ?></a></h1>
-	<?php
+        <img style="margin: 0 auto;" src="logosuchary.png" alt="logo">
+        <?php
 
 	unset( $login_header_url, $login_header_title );
 
