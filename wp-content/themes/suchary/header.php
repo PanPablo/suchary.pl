@@ -6,7 +6,7 @@
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <?php wp_head(); ?>
-    <title>Suchary.pl</title>
+    <title>alesuchary.pl</title>
 </head>
 
 <body>
@@ -42,7 +42,7 @@
     </div>
 </div>
     <div class="col-2-6">
-        <div class="logo"><a href="/suchary_pl.pl/">SUCHARY.PL</a></div>
+        <div class="logo"><a href="http://alesuchary.pl">ALESUCHARY.PL</a></div>
     </div>
     <div class="col-2-6"></div>
 </div>
