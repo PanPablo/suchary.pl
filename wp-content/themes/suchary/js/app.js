@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 
-    $('.navIcon').click(function () {
-        $('.nav').toggleClass('navShow');
-
+    $('#toggle').click(function() {
+        $(this).toggleClass('active');
+        $('#overlay').toggleClass('open');
     });
 
 });

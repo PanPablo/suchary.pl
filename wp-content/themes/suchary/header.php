@@ -30,22 +30,25 @@
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
 </script>
+<div class="cont">
+<div class="button_container" id="toggle">
+    <span class="top"></span>
+    <span class="middle"></span>
+    <span class="bottom"></span>
+</div>
+</div>
+<div class="overlay" id="overlay">
+    <nav class="overlay-menu">
+     <? wp_nav_menu(); ?>
+    </nav>
+</div>
 
 <div class="row">
-<div class="col-2-6">
-        <div class="navIcon" onclick="myFunction(this)">
-        <div class="hamburger1"></div>
-        <div class="hamburger2"></div>
-        <div class="hamburger3"></div>
-        </div>
-    <div class="nav">
-    <?php wp_nav_menu(); ?>
-    </div>
-</div>
-    <div class="col-2-6">
+
+    <div class="col-6-6">
         <div class="logo"><a href="http://alesuchary.pl">ALESUCHARY.PL</a></div>
     </div>
-    <div class="col-2-6"></div>
+
 </div>
 <div class="row">
     <div class="col-6-6 tags">
