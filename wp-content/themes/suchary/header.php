@@ -39,7 +39,7 @@
 </div>
 <div class="overlay" id="overlay">
     <nav class="overlay-menu">
-     <? wp_nav_menu(); ?>
+     <?php wp_nav_menu(); ?>
     </nav>
 </div>
 
