@@ -30,7 +30,7 @@
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
 </script>
-<div class="cont">
+<div class="Conti">
 <div class="button_container" id="toggle">
     <span class="top"></span>
     <span class="middle"></span>
