@@ -55,6 +55,7 @@ a:visited  {
 
 @media only screen and (max-width: 768px) {
   .tags {
+    display: flex;
     flex-direction: column;
     align-items: center;
 
@@ -63,6 +64,9 @@ a:visited  {
 
   .tagMenu {
     margin: 5px;
+    display: inline;
+    font-size: 25px;
+    font-family: "Amatic SC", cursive;
   }
 
 }
