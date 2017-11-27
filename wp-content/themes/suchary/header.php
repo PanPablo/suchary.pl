@@ -47,4 +47,13 @@
     </div>
     <div class="col-2-6"></div>
 </div>
+<div class="row">
+    <div class="col-6-6 tags">
+        <p class="tagMenu"><a href="http://alesuchary.pl/?tag=informatycy">#Informatycy</a></p>
+        <p class="tagMenu"><a href="http://alesuchary.pl/?tag=Blondynki">#Blondynki</a></p>
+        <p class="tagMenu"><a href="http://alesuchary.pl/?tag=mem">#Memy</a></p>
+        <p class="tagMenu"><a href="http://alesuchary.pl/?tag=polacy">#Polacy</a></p>
+        <p class="tagMenu"><a href="http://alesuchary.pl/?tag=suchar">#Suchar</a></p>
+    </div>
+</div>
 

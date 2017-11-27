@@ -16,11 +16,15 @@ a:link {
     color: gray;
   }
 
-.logo a {
+a {
   color: deeppink;
   text-decoration: none;
 }
-.logo a:visited  {
+
+a:hover {
+  text-decoration: underline;
+}
+a:visited  {
   color: deeppink;
   text-decoration: none;
 }
@@ -35,6 +39,34 @@ a:link {
   justify-content: center;
   text-decoration: none;
 }
+
+.tagMenu {
+  display: inline;
+  font-size: 25px;
+  font-family: "Amatic SC", cursive;
+
+}
+
+.tags {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .tags {
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+
+  .tagMenu {
+    margin: 5px;
+  }
+
+}
+
 
 //style dla pojedynczego postu
 
@@ -228,7 +260,7 @@ input[type=submit] {
   font-family: "Amatic SC", cursive;
   font-size: 25px;
   margin-top: 5px;
-  background-image: none;
+  -webkit-appearance: none;
 
 }
 
