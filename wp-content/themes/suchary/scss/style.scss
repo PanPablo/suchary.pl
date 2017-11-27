@@ -40,6 +40,16 @@ a:visited  {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 768px) {
+
+  .logo {
+    font-size: 40px;
+  }
+
+}
+
+
+
 .tagMenu {
   display: inline;
   font-size: 25px;
@@ -347,7 +357,7 @@ h1 {
 .button_container {
   position: fixed;
   top: 5%;
-  right: 2%;
+  left: 2%;
   height: $button-height;
   width: $button-width;
   cursor: pointer;
@@ -433,7 +443,7 @@ h1 {
     top: 50%;
     transform: translateY(-50%);
     font-size: 50px;
-    font-family: 'Vollkorn', serif;
+    font-family: "Amatic SC", cursive;
     font-weight: 400;
     text-align: center;
   }
@@ -459,6 +469,7 @@ h1 {
         color: white;
         text-decoration: none;
         overflow: hidden;
+        margin-top: 15px;
 
 
         &:hover:after,
