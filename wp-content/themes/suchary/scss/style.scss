@@ -10,10 +10,11 @@
 //logo strony
 a:visited {
   color: deeppink;
+  text-decoration: none;
 }
 
 a:link {
-    color: gray;
+    color: deeppink;
   }
 
 a {
@@ -23,10 +24,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-a:visited  {
-  color: deeppink;
-  text-decoration: none;
 }
 
 .logo {
