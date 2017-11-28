@@ -13,7 +13,7 @@
 $q = new WP_Query([
     'post_type' => 'post',
     'posts_per_page' => 10,
-    'meta_key' => 'ratings_average',
+    'meta_key' => 'ratings_score',
     'orderby' => 'meta_value_num',
     'order' => 'DESC',
 
@@ -42,7 +42,6 @@ if ( $q->have_posts() ) : while ( $q->have_posts() ) : $q->the_post(); ?>
 <?php endif;
 
 ?>
-
 
     <div class="row">
         <div class="col-6-6 pag">
