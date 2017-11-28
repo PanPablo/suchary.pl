@@ -11,7 +11,13 @@
 </head>
 
 <body>
-<div id="fb-root"></div>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-2860757196998741",
+        enable_page_level_ads: true
+    });
+</script>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
