@@ -1,8 +1,5 @@
 # alesuchary.pl
-strona suchary zrobiona na warsztacie coderslab
-
-Strona oparta na wordpress'ie.
-Do budowy motywu użyłem PHP, JS, jquery i sass.
-Strona dostepna pod adres http://alesuchary.pl
+Wordpress based app for joke sharing. 
+Build on my own wordpress theme during the CodersLab bootcamp.
 
 
