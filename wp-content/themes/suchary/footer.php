@@ -10,7 +10,7 @@
 </body>
 <div class="row">
     <div class="col-3-6"><?php get_search_form(); ?></div>
-    <div class="col-3-6"><h5><a href="mailto:pstruminski@gmail.com">Created by Pablo</a></h5></div>
+    <div class="col-3-6"><h5><a href="https://github.com/PanPablo">Created by Pablo</a></h5></div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

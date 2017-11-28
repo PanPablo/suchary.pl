@@ -12,24 +12,14 @@
 
 <body>
 <div id="fb-root"></div>
-<script>
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId      : '560957450906878',
-            xfbml      : true,
-            version    : 'v2.11'
-        });
-        FB.AppEvents.logPageView();
-    };
-
-    (function(d, s, id){
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {return;}
+        if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        js.src = 'https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.11&appId=560957450906878';
         fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
+    }(document, 'script', 'facebook-jssdk'));</script>
 <div class="Conti">
 <div class="button_container" id="toggle">
     <span class="top"></span>

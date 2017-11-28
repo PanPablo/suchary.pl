@@ -15,7 +15,8 @@
             <span><?php the_content() ?></span>
 
             <div><?php if(function_exists('the_ratings')) { the_ratings(); } ?></div>
-            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+            <div class="fb-like" data-href="<?php the_permalink() ?>" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+        </div>
         </div>
     </div>
 </div>
