@@ -19,7 +19,8 @@
         js = d.createElement(s); js.id = id;
         js.src = 'https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.11&appId=560957450906878';
         fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 <div class="Conti">
 <div class="button_container" id="toggle">
     <span class="top"></span>

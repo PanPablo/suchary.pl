@@ -16,6 +16,7 @@
 
             <div><?php if(function_exists('the_ratings')) { the_ratings(); } ?></div>
             <div class="fb-like" data-href="<?php the_permalink() ?>" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+
         </div>
         </div>
     </div>

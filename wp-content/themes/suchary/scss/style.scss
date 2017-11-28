@@ -109,6 +109,15 @@ a:hover {
   margin-left: 70%;
 }
 
+@media only screen and (max-width: 768px) {
+
+  .fb-like {
+    margin-left: 50%;
+  }
+
+}
+
+
 //style dla formularza
 .usp-input {
   border: 2px solid deeppink;
