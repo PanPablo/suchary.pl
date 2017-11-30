@@ -6,19 +6,36 @@
  * Time: 09:11
  */
 ?>
-<?php get_header() ?>
-<div class="row">
-    <div class="col-6-6">
-        <div class="singleJoke">
-            <h4>Autor:<?php the_author() ?></h4>
-            <div><?php the_post_thumbnail('thumbnail') ?></div>
-            <span><?php the_content() ?></span>
+<?php get_header(); ?>
+<div class="container">
+    <div class="row">
+        <div class="col-6-6">
+        <?php
 
-            <div><?php if(function_exists('the_ratings')) { the_ratings(); } ?></div>
-            <div class="fb-like" data-href="<?php the_permalink() ?>" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
 
-        </div>
+
+        if(is_single() || is_page())
+        {
+
+            if ( have_posts() ) : while ( have_posts() ) :    the_post(); ?>
+
+
+
+                    <?php the_content(); ?>
+
+
+            <?php endwhile; ?>
+                <!-- post navigation -->
+            <?php else: ?>
+                <!-- no posts found -->
+            <?php endif;
+
+        }
+
+
+        ?>
         </div>
     </div>
 </div>
+
 <?php get_footer(); ?>

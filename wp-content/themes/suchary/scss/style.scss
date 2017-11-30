@@ -37,6 +37,12 @@ a:hover {
   text-decoration: none;
 }
 
+.specP {
+  color: gray;
+  font-size: 20px;
+  font-family: "Amatic SC", cursive;
+}
+
 @media only screen and (max-width: 768px) {
 
   .logo {
@@ -511,3 +517,146 @@ h1 {
   }
 }
 
+//.um {
+//  opacity: 1 !important;
+//}
+
+///////////////style dla formularzy rejestracji i logowania ///////////////
+.form p {
+  color: gray;
+  font-size: 40px;
+  font-family: "Amatic SC", cursive;
+}
+
+.input {
+  border: 2px solid deeppink;
+  width: 50%;
+  font-size: 25px;
+  font-family: 'Amatic SC', cursive;
+  background-color: white;
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .input {
+    width: 90%;
+  }
+
+}
+
+#username {
+  border: 2px solid deeppink;
+  width: 50%;
+  font-size: 25px;
+  font-family: 'Amatic SC', cursive;
+  background-color: white;
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #username {
+    width: 90%;
+  }
+
+}
+
+
+#email {
+  border: 2px solid deeppink;
+  width: 50%;
+  font-size: 25px;
+  font-family: 'Amatic SC', cursive;
+  background-color: white;
+  display: block;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  #email {
+    width: 90%;
+  }
+
+}
+
+#email:focus {
+  box-shadow: 6px 6px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+  border: 3px solid deeppink;
+  outline: none;
+}
+
+#passw1 {
+  border: 2px solid deeppink;
+  width: 50%;
+  font-size: 25px;
+  font-family: 'Amatic SC', cursive;
+  background-color: white;
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #passw1 {
+    width: 90%;
+  }
+
+}
+
+#passw1:focus {
+  box-shadow: 6px 6px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+  border: 3px solid deeppink;
+  outline: none;
+}
+
+#passw2 {
+  border: 2px solid deeppink;
+  width: 50%;
+  font-size: 25px;
+  font-family: 'Amatic SC', cursive;
+  background-color: white;
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #passw2 {
+    width: 90%;
+  }
+
+}
+
+
+
+#passw2:focus {
+  box-shadow: 6px 6px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+  border: 3px solid deeppink;
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+.wppb-alert {
+  color: gray;
+  font-size: 40px;
+  font-family: "Amatic SC", cursive;
+}
+
+#wppb_register_pre_form_message {
+  display: none;
+}
+
+#wppb_form_success_message {
+  color: gray;
+  font-size: 40px;
+  font-family: "Amatic SC", cursive;
+}
+
+.log {
+ display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
