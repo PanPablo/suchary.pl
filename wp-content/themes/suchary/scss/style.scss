@@ -43,6 +43,8 @@ a:hover {
   font-family: "Amatic SC", cursive;
 }
 
+
+
 @media only screen and (max-width: 768px) {
 
   .logo {
@@ -659,4 +661,25 @@ li {
  display: flex;
   justify-content: center;
   align-items: flex-start;
+}
+
+.warning {
+  color: gray;
+  font-size: 20px;
+  font-family: "Amatic SC", cursive;
+}
+
+.wppb-user-forms p {
+  color: gray;
+  font-size: 20px;
+  font-family: "Amatic SC", cursive;
+}
+
+.text-input {
+  border: 2px solid deeppink;
+  width: 50%;
+  font-size: 25px;
+  font-family: 'Amatic SC', cursive;
+  background-color: white;
+  display: block;
 }
