@@ -33,6 +33,74 @@
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
 </script>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '560957450906878',
+            cookie     : true,
+            xfbml      : true,
+            version    : 'v2.11'
+        });
+
+        FB.AppEvents.logPageView();
+
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+</script>
+<script>
+
+    <script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '560957450906878',
+            cookie     : true,
+            xfbml      : true,
+            version    : 'v2.11'
+        });
+
+        FB.AppEvents.logPageView();
+
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    FB.getLoginStatus(function(response) {
+        statusChangeCallback(response);
+    });
+
+
+    {
+        status: 'connected',
+            authResponse: {
+        accessToken: '...',
+            expiresIn:'...',
+            signedRequest:'...',
+            userID:'...'
+    }
+    }
+    function checkLoginState() {
+        FB.getLoginStatus(function(response) {
+            statusChangeCallback(response);
+        });
+    }
+
+</script>
+
+
 <div class="Conti">
 <div class="button_container" id="toggle">
     <span class="top"></span>
@@ -47,7 +115,7 @@
 </div>
 
 <div class="row">
-<div class="col-2-6">.</div>
+<div class="col-2-6 kol">.</div>
     <div class="col-2-6">
         <div class="logo"><a href="http://alesuchary.pl">ALESUCHARY.PL</a></div>
     </div>
