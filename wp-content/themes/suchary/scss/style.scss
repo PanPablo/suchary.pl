@@ -629,14 +629,26 @@ h1 {
 
 }
 
-
-
 #passw2:focus {
   box-shadow: 6px 6px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
   border: 3px solid deeppink;
   outline: none;
 }
 
+#user_pass {
+  border: 2px solid deeppink;
+  width: 50%;
+  font-size: 25px;
+  font-family: 'Amatic SC', cursive;
+  background-color: white;
+  display: block;
+}
+
+#user_pass:focus {
+  box-shadow: 6px 6px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+  border: 3px solid deeppink;
+  outline: none;
+}
 li {
   list-style: none;
 }
