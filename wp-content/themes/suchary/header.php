@@ -57,7 +57,6 @@
 </script>
 <script>
 
-    <script>
     window.fbAsyncInit = function() {
         FB.init({
             appId      : '560957450906878',
@@ -120,7 +119,7 @@
         <div class="logo"><a href="http://alesuchary.pl">ALESUCHARY.PL</a></div>
     </div>
     <div class="col-2-6 log">
-        <p class="specP"><a href="http://localhost/suchary_pl.pl/index.php/profil/">Mój profil</a></p>
+        <p class="specP"><a href="http://alesuchary.pl//index.php/profil/">Mój profil</a></p>
     </div>
 </div>
 <div class="row">
