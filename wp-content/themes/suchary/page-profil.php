@@ -10,7 +10,7 @@
 <div class="container">
     <div class="row">
         <div class="col-6-6">
-            <h2><a href="http://localhost/suchary_pl.pl/wp-login.php?action=logout&redirect_to=http%3A%2F%2Flocalhost%2Fsuchary_pl.pl%2Findex.php%2Fzaloguj-sie%2F&_wpnonce=08d5e896f7"> wyloguj się</a></h2>
+            <h2><a href="http://alesuchary.pl/wp-login.php?action=logout&redirect_to=http%3A%2F%2Falesuchary.pl%2Fzaloguj-sie%2F&_wpnonce=8582a0b577"> wyloguj się</a></h2>
             <br>
             <h2 class="">Edytuj profil:</h2>
             <?php
