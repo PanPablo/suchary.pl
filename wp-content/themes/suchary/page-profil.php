@@ -14,12 +14,7 @@
             <br>
             <h2 class="">Edytuj profil:</h2>
             <?php
-
-
             
-
-
-
             if(is_single() || is_page())
             {
 
